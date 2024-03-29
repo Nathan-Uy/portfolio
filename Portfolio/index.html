@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>E-Portfolio</title>
+</head>
+<body>
+    <!--Header-->
+   <header class="header">
+   <a href="#" class="logo">Portfolio</a>
+
+   <i class="fa-solid fa-bars" id="menuIcon"></i>
+
+    <nav class="navbar" id="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href='#contact'>Contact</a>
+    </nav>
+   </header>
+
+   <!--BODY-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi, I'm Nathan!</h3>
+        <h1>John Jerry Nathaniel Tono</h1>
+        <h3>Your <span id="multiple-text"> </span></h3>
+        <div class="social-media">
+            <a href="https://github.com/Nathan-Uy"><i class="fa-brands fa-github-square"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/nathaniel-tono-62a296293/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <a href="Resume_Tono.pdf" class="btn">View Resume</a>
+    </div>
+    <div class="home-img">
+        <img src="./images/me.jpg" alt="">
+    </div>
+</section>
+
+
+
+<!-- ABOUT SECTION-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/me.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>I'am Nathan, a Frontend Web Developer. I am creative, imaginative, and able to communicate my ideas effectively</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+<!--SERVICES SECTION-->
+<section class="services" id="services">
+    <h2 class="heading">My<span> Services </span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Web Development using HTML,CSS,JS, and PHP</p>   
+          
+        </div>
+        <div class="services-box">
+            <i class="fa-solid fa-database"></i>
+            <h3>Database Management(MySQL)</h3>
+            <p>Database Management using MySQL and connecting it to the Front End design</p>
+        </div>  
+        <div class="services-box">
+            <i class="fa-brands fa-php"></i>
+            <h3>CodeIgniter Framework</h3>
+            <p>Full-stack Development using PHP through MVC Cycle</p>
+     
+        </div>
+    </div>
+</section>
+<!--Portfolio-->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="./images/wittopia.png" alt="">
+            <div class="portfolio-layer">
+                <h2>Wittopia</h2>
+                <p>Wittopia is a school portal that features Admin, Student, and Teacher login.</p>
+                <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./images/Zen Bean.png" alt="">
+            <div class="portfolio-layer">
+                <h2>Zen Bean</h2>
+                <p>Zen Bean is a coffee shop landing page that showcases its menu and operating hours</p>
+                <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./images/Sinekula.png" alt="">
+            <div class="portfolio-layer">
+                <h2>Sinekula</h2>
+                <p>Sinekula is a Netflix clone that only show independent Filipino films and shows</p>
+                <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/triptift.png" alt="">
+            <div class="portfolio-layer">
+                <h2>Triptify</h2>
+                <p>Triptify is a mobile fleet management startup that is design to manage PUV coops based on their routes</p>
+                <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/mvc.png" alt="">
+            <div class="portfolio-layer">
+                <h2>Student Grade System</h2>
+                <p>This student grading system is our final project for our CodeIgniter Framework Seminar</p>
+                <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+    </div>
+</section>
+<!--CONTACT-->
+<section class="contact" id="contact">
+    <h2 class="heading">Let's have a <span>Talk</span></h2>
+
+    <form >
+        <div class="input-box">
+            <input type="text" placeholder="Name">
+            <input type="email"placeholder="Email Address">
+        </div>
+        
+        <div class="input-box">
+            <input type="text" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by John Jerry Nathaniel Tono | All Rights Reserved. </p>
+    </div>
+
+    <div class="footer-icon-top">
+        <a href="#home"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    </div>
+</footer>
+</body>
+
+<script src="./js/index.js"></script>
+
+</html>
